@@ -15,6 +15,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+
+  // plug in the daisyui component to tailwind
+  plugins: [require("daisyui")],
+
+  // daisy ui theme with tailwind
+  daisyui: {
+    themes: ["winter"],
+  },
 }
 export default config
