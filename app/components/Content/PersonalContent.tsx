@@ -25,7 +25,7 @@ const PersonalContent = () => {
                     {/* Right Column */}
                     <div className="flex justify-center md:justify-end items-center">
                         <div className="text-center">
-                            <Image src="./images/poul.jpg" alt="poul" width={500} height={500} className='rounded-full' />
+                            <Image src="/images/poul.jpg" alt="poul" width={500} height={500} className='rounded-full' />
                         </div>
                     </div>
 

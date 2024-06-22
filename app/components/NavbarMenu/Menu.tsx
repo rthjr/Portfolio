@@ -11,7 +11,7 @@ const Menu = () => {
           Home
         </a>
       </li>
-      <li>
+      <li>  
         <a href="#skill" className="text-white hover:text-blue-200">
           Skill
         </a>
