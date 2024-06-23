@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="flex flex-col gap-11 md:mt-16 mt-5">
         <div className='w-full flex flex-col gap-4'>
           <h4>Enter the Email</h4>
-          <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs w-full h-8 text-black" />
+          <input type="text" placeholder="Type here" className="input input-bordered max-w-xs w-full h-8 text-black" />
         </div>
         <div className='w-full flex flex-col gap-4'>
           <h4>Enter the Message</h4>

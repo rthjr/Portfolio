@@ -11,16 +11,16 @@ const PersonalContentC = () => {
         <div>
             <ul className='flex gap-10 mt-20 items-center'>
                 <Link href="">
-                   <CiFacebook /> 
+                    <CiFacebook className='animate-bounce' />
                 </Link>
                 <Link href="">
-                   <FaGithub />
+                   <FaGithub className='animate-bounce' />
                 </Link>
                 <Link href="">
-                    <FaInstagram />
+                    <FaInstagram className='animate-bounce'/>
                 </Link>
                 <Link href="">
-                    <h4 className='font-bold'>CV</h4>
+                    <h4 className='font-bold animate-bounce'>CV</h4>
                 </Link>
             </ul>
         </div>
