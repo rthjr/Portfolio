@@ -23,7 +23,9 @@ const PersonalContent = () => {
                         {/* Left Column */}
                         <div className="flex flex-col items-center justify-center">
                             <h1 className="text-xl md:text-3xl lg:text-4xl text-center">Phan Sovannarith</h1>
-                            <h4 className="mt-3 md:mt-5 text-sm md:text-base lg:text-lg text-center md:text-left">Web development involves creating websites and web applications using programming languages like HTML, CSS(Tailwind), and JavaScript(Typescript) plus React.</h4>
+                            <h4 className="mt-3 md:mt-5 text-sm md:text-base lg:text-lg text-center md:text-left">
+                                I have always been fascinated by the intersection of creativity and technology, and nothing embodies this better than web development. With this Portfolio I use various of Technology such as <strong className='text-red-400'>HTML CSS</strong> with <strong className='text-red-400'>Tailwind</strong> framework <strong className='text-red-400'>Javascript</strong> with <strong className='text-red-400'>Typescript</strong> and <strong className='text-red-400'>React</strong> with <strong className='text-red-400'>Next.js</strong>.
+                            </h4>
                         </div>
 
                         {/* Right Column */}

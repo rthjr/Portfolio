@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const UpDownAnimation = () => {
     return (
-        <div className="flex justify-center md:justify-end items-center">
+        <div className="flex justify-center md:justify-end items-center mt-10 md:mt-0">
             <motion.div
                 className="text-center rounded-full"
                 style={{

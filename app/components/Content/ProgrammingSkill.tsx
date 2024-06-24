@@ -32,7 +32,7 @@ const ProgrammingSkill = () => {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Experience</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                        Project
+                        Here are the project that i used to build!
                     </p>
                 </div>
             </motion.div>
