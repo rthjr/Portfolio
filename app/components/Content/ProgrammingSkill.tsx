@@ -1,23 +1,37 @@
-'use client';
+"use client";
 
 import React from 'react';
 import { motion } from 'framer-motion';
 
 const stats = [
     { name: 'Programming', value: '4' },
-    { name: 'Framwork', value: '4' },
+    { name: 'Framework', value: '4' },
     { name: 'Project', value: '5' },
     { name: 'Certificate', value: 'Unlimited' },
 ];
 
 const images = [
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-    "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
+    "/images/calculator.jpg",
+    "/images/java.jpg",
+    "/images/rs.jpg",
+    "/images/todo.png",
+    "/images/zoom.jpg",
+];
+
+const hoverTexts = [
+    "CALCULATOR",
+    "JAVA Exercises",
+    "Recommendation System",
+    "TODO List",
+    "Zoom Animation"
+];
+
+const links = [
+    "https://github.com/rthjr/calculator",
+    "https://github.com/rthjr/JavaExercise",
+    "https://github.com/rthjr/CBF_Recommandation_System",
+    "https://github.com/rthjr/TODO_List_Django",
+    "https://github.com/rthjr/zoom-scroll-img"
 ];
 
 const ProgrammingSkill = () => {
@@ -32,7 +46,7 @@ const ProgrammingSkill = () => {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Experience</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                        Here are the project that i used to build!
+                        Here are the projects that I used to build!
                     </p>
                 </div>
             </motion.div>
@@ -46,13 +60,15 @@ const ProgrammingSkill = () => {
                 {images.map((image, index) => (
                     <motion.div 
                         key={index} 
-                        className="carousel-item relative"
+                        className="carousel-item relative h-80"
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a href="">
+                        <a href={links[index]} target="_blank" rel="noopener noreferrer">
                             <motion.img
                                 src={image}
+                                alt={hoverTexts[index]}
                                 className="rounded-box w-full h-full"
+                                style={{ objectFit: 'cover' }} // Ensure the image fills its container
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -62,7 +78,7 @@ const ProgrammingSkill = () => {
                                 initial={{ opacity: 0 }}
                                 whileHover={{ opacity: 1 }}
                             >
-                                <span className="text-white text-lg">Hovered Text</span>
+                                <span className="text-white text-lg">{hoverTexts[index]}</span>
                             </motion.div>
                         </a>
                     </motion.div>
