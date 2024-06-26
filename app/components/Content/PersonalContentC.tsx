@@ -1,30 +1,27 @@
 
 'use client';
 import Link from 'next/link';
-import React from 'react'
-import { CiFacebook } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa';
 
 const PersonalContentC = () => {
     return (
         <div>
             <ul className='flex gap-10 mt-20 items-center'>
-                <Link href="">
-                    <CiFacebook className='animate-bounce' />
-                </Link>
-                <Link href="">
-                   <FaGithub className='animate-bounce' />
-                </Link>
-                <Link href="">
+                <a href="https://facebook.com">
+                    <FaFacebook className='animate-bounce' />
+                </a>
+                <a href="https://github.com">
+                    <FaGithub className='animate-bounce' />
+                </a>
+                <a href="https://instagram.com">
                     <FaInstagram className='animate-bounce'/>
-                </Link>
-                <Link href="">
-                    <h4 className='font-bold animate-bounce'>CV</h4>
+                </a>
+                <Link href="../cvfolder/CV.pdf" className="font-bold">
+                        CV
                 </Link>
             </ul>
         </div>
-    )
-}
+    );
+};
 
-export default PersonalContentC
+export default PersonalContentC;
