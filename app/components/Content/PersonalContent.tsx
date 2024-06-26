@@ -3,7 +3,6 @@ import Image from 'next/image'
 import PersonalContentC from './PersonalContentC';
 import Skills from './ProgrammingSkill';
 import Contact from './Contact';
-import { FaArrowUp } from "react-icons/fa6";
 import { PageWrapper } from '../Animatio/page_wrapper';
 import UpDownAnimation from '../Animatio/ImageAnimation';
 
@@ -45,13 +44,6 @@ const PersonalContent = () => {
                     <div id='contact'>
                         <Contact />
                     </div>
-                </div>
-                <div className="flex justify-center items-center mt-24">
-                    <a href="#home">
-                        <svg className="animate-bounce w-12 h-12 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
-                            <FaArrowUp className='text-white' />
-                        </svg>
-                    </a>
                 </div>
             </PageWrapper>
         </div>
