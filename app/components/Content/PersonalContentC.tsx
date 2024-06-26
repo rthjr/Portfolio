@@ -16,7 +16,7 @@ const PersonalContentC = () => {
                 <a href="https://instagram.com">
                     <FaInstagram className='animate-bounce'/>
                 </a>
-                <Link href="../cvfolder/CV.pdf" className="font-bold">
+                <Link href="../cvfolder/CV.pdf" className="animate-bounce font-bold">
                         CV
                 </Link>
             </ul>
