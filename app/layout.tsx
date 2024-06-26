@@ -19,11 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="winter">
       <body className={inter.className}>
-        
           <NavbarPage />
           {children}
           <FooterPage />
-
+          
         </body>
     </html>
   )

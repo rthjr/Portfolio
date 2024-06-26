@@ -16,7 +16,7 @@ const Footer = () => {
                         <h4>Phone: 092-559-662</h4>
                     </div>
                 </div>
-                <div className='flex justify-center items-center font-bold text-white md:mt-10 mt5'>
+                <div className='flex md:justify-center md:items-center justify-start font-bold text-white md:mt-10 mt5'>
                     <p>&copy; {currentYear} Phan Sovannarith. All rights reserved.</p>
                 </div>
                 <div className="flex justify-center items-center mt-24">
