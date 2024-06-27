@@ -36,7 +36,7 @@ const links = [
 
 const ProgrammingSkill = () => {
     return (
-        <div className="overflow-hidden h-auto w-auto mt-96">
+        <div className="overflow-hidden h-auto w-auto mt-60 md:mt-96">
             <motion.div 
                 className="max-w-7xl"
                 initial={{ opacity: 0 }}

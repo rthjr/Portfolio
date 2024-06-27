@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <PageWrapper>
-            <div className='grid gap-10 md:gap-14 bg-stone-600 w-full h-auto p-5 md:p-10'>
+            <div className='grid gap-1 md:gap-1 bg-stone-600 w-full h-auto p-5 md:p-10'>
                 <div className='flex flex-col items-center font-bold text-white'>
                     <div>Email: sovannarithphan9@gmail.com</div><br />
                     <div>Phone: 092-559-662</div>

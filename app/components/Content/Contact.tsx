@@ -5,7 +5,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <div className='md:mt-96 mt-10 flex justify-center items-center'>
+      <div className='md:mt-96 mt-60 flex justify-center items-center'>
         <h1 className='font-bold text-xl md:text-2xl'>Contact</h1>
       </div>
       <div className="flex flex-col gap-11 md:mt-16 mt-5">
