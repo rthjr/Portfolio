@@ -23,7 +23,7 @@ const hoverTexts = [
     "JAVA Exercises",
     "Recommendation System",
     "TODO List",
-    "Zoom Animation"
+    "Gallery"
 ];
 
 const links = [
@@ -31,7 +31,7 @@ const links = [
     "https://github.com/rthjr/JavaExercise",
     "https://github.com/rthjr/CBF_Recommandation_System",
     "https://github.com/rthjr/TODO_List_Django",
-    "https://github.com/rthjr/zoom-scroll-img"
+    "https://gallery-gamma-six.vercel.app/"
 ];
 
 const ProgrammingSkill = () => {
